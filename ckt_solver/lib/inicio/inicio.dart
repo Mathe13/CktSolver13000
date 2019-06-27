@@ -1,6 +1,6 @@
 import 'package:ckt_solver/components/botao.dart';
 import 'package:ckt_solver/components/defaultScaffold.dart';
-import 'package:ckt_solver/quiz/quiz1Page.dart';
+import 'package:ckt_solver/quiz/quiz1.dart';
 import 'package:flutter/material.dart';
 
 class InicioPage extends StatelessWidget {

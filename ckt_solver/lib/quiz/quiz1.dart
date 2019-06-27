@@ -1,6 +1,7 @@
 import 'package:ckt_solver/components/botao.dart';
 import 'package:ckt_solver/components/defaultScaffold.dart';
 import 'package:ckt_solver/components/input.dart';
+import 'package:ckt_solver/quiz/quiz2.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
@@ -66,6 +67,14 @@ class Quiz1Page extends StatelessWidget {
                           )
                         ],
                       ).show();
+                    } else {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Quiz2Page(
+                                    tipoCkt: tipoCkt,
+                                    numeroNos: int.tryParse(numeroCtrl.text),
+                                  )));
                     }
                   }, "Avançar")
                 ],

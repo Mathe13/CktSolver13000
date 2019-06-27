@@ -1,5 +1,4 @@
 import 'package:ckt_solver/inicio/inicio.dart';
-import 'package:ckt_solver/quiz/quiz1Page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
